@@ -1,0 +1,29 @@
+{
+  "name": "pi_raw_data_01",
+  "version": "0.0.1",
+  "description": "Sending PI Raw data",
+  "scripts": {
+    "start": "node piRawData.js",
+    "test": "mocha --require test/support/env --reporter spec --bail --check-leaks test/ --sort"
+  },
+  "engines": {
+    "node": "7.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.wdf.sap.corp/iot-poc/MessagingConsumer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.1",
+    "body-parser": "^1.15.2",
+    "connect": "^3.5.0",
+    "express": "*",
+    "sanitizer": "*",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.2",
+    "event-stream": "^3.3.4",
+    "moment": "*"
+  }
+}

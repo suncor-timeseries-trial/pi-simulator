@@ -1,0 +1,482 @@
+{
+    "id": "com.iotaedemo.suncor.tsdata",
+    "version": "1.0.1",
+    "scope": "private",
+    "dependencies": [],
+    "services": {
+        "dataService": {
+            "thingTypes": [ 
+                {
+                    "name": "com.iotaedemo.suncor.tsdata:SB_Type",
+                    "description": { 
+                        "en": "SB Type"
+                    },
+                    "propertyTypes": [
+                        {
+                            "id": "Image",
+                            "description": {
+                                "en": "Image properties"
+                            },
+                            "propertySetType": "com.iotaedemo.suncor.tsdata:Image"
+                        },
+                        {
+                            "id": "RawData",
+                            "description": {
+                                "en": null
+                            },
+                            "propertySetType": "com.iotaedemo.suncor.tsdata:rawData"
+                        }, 
+                        {
+                            "id": "SourceInfo",
+                            "description": {
+                                "en": null
+                            },
+                            "propertySetType": "com.iotaedemo.suncor.tsdata:SourceInfo"
+                        } 
+                    ]
+                },
+                {
+                    "name": "com.iotaedemo.suncor.tsdata:P85_OPPC",
+                    "description": { 
+                        "en": "P85 OPPC"
+                    },
+                    "propertyTypes": [
+                        {
+                            "id": "Image",
+                            "description": {
+                                "en": "Image properties"
+                            },
+                            "propertySetType": "com.iotaedemo.suncor.tsdata:Image"
+                        },
+                        {
+                            "id": "RawData",
+                            "description": {
+                                "en": null
+                            },
+                            "propertySetType": "com.iotaedemo.suncor.tsdata:rawData"
+                        }, 
+                        {
+                            "id": "SourceInfo",
+                            "description": {
+                                "en": null
+                            },
+                            "propertySetType": "com.iotaedemo.suncor.tsdata:SourceInfo"
+                        } 
+                    ]
+                },
+                {
+                    "name": "com.iotaedemo.suncor.tsdata:P85_OPPB",
+                    "description": { 
+                        "en": "P85 OPPB"
+                    },
+                    "propertyTypes": [
+                        {
+                            "id": "Image",
+                            "description": {
+                                "en": "Image properties"
+                            },
+                            "propertySetType": "com.iotaedemo.suncor.tsdata:Image"
+                        },
+                        {
+                            "id": "RawData",
+                            "description": {
+                                "en": null
+                            },
+                            "propertySetType": "com.iotaedemo.suncor.tsdata:rawData"
+                        }, 
+                        {
+                            "id": "SourceInfo",
+                            "description": {
+                                "en": null
+                            },
+                            "propertySetType": "com.iotaedemo.suncor.tsdata:SourceInfo"
+                        } 
+                    ]
+                },
+                {
+                    "name": "com.iotaedemo.suncor.tsdata:P85_OPPA",
+                    "description": { 
+                        "en": "P85 OPPA"
+                    },
+                    "propertyTypes": [
+                        {
+                            "id": "Image",
+                            "description": {
+                                "en": "Image properties"
+                            },
+                            "propertySetType": "com.iotaedemo.suncor.tsdata:Image"
+                        },
+                        {
+                            "id": "RawData",
+                            "description": {
+                                "en": null
+                            },
+                            "propertySetType": "com.iotaedemo.suncor.tsdata:rawData"
+                        }, 
+                        {
+                            "id": "SourceInfo",
+                            "description": {
+                                "en": null
+                            },
+                            "propertySetType": "com.iotaedemo.suncor.tsdata:SourceInfo"
+                        } 
+                    ]
+                },
+                {
+                    "name": "com.iotaedemo.suncor.tsdata:85NIROPPB",
+                    "description": { 
+                        "en": "85 NIRO PRB"
+                    },
+                    "propertyTypes": [
+                        {
+                            "id": "Image",
+                            "description": {
+                                "en": "Image properties"
+                            },
+                            "propertySetType": "com.iotaedemo.suncor.tsdata:Image"
+                        },
+                        {
+                            "id": "OreQualityProbe",
+                            "description": {
+                                "en": null
+                            },
+                            "propertySetType": "com.iotaedemo.suncor.tsdata:oreQualityProbe"
+                        }, 
+                        {
+                            "id": "SourceInfo",
+                            "description": {
+                                "en": null
+                            },
+                            "propertySetType": "com.iotaedemo.suncor.tsdata:SourceInfo"
+                        } 
+                    ]
+                }
+            ],
+            "propertySetTypes": [
+                {
+                    "name": "com.iotaedemo.suncor.tsdata:rawData",
+                    "description": {
+                        "en": "Raw Data"
+                    },
+                    "dataCategory": "TimeSeriesData",
+                    "propertyTypes": [
+                        {
+                            "value": {
+                                "id": "BIT",
+                                "type": "NumericFlexible", 
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "BPT",
+                                "type": "NumericFlexible", 
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "CL",
+                                "type": "NumericFlexible", 
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "D50",
+                                "type": "NumericFlexible", 
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "FINES",
+                                "type": "NumericFlexible", 
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "GRADE_ID",
+                                "type": "String",
+                                "length": "127",
+                                "qualityCode": 0
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "MB", 
+                                "type": "NumericFlexible", 
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "MOIST",
+                                "type": "NumericFlexible", 
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "RECOV",
+                                "type": "NumericFlexible", 
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "SHOVEL",
+                                "type": "NumericFlexible", 
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "TONNES",
+                                "type": "NumericFlexible", 
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "TRUCK",
+                                "type": "NumericFlexible", 
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "OILSAND_MASS",
+                                "type": "NumericFlexible", 
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        } 
+                    ]
+                }, {
+                    "name": "com.iotaedemo.suncor.tsdata:oreQualityProbe",
+                    "description": {
+                        "en": "Ore Quality Probe Data"
+                    },
+                    "dataCategory": "TimeSeriesData",
+                    "propertyTypes": [
+                        {
+                            "value": {
+                                "id": "85AI110",
+                                "type": "NumericFlexible", 
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "85AI210",
+                                "type": "NumericFlexible", 
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "85TI110",
+                                "type": "NumericFlexible", 
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "85TI210",
+                                "type": "NumericFlexible", 
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "PRBA_1MM",
+                                "type": "NumericFlexible", 
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "PRBA_2MM",
+                                "type": "NumericFlexible",
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "PRBA_BIT", 
+                                "type": "NumericFlexible", 
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "PRBA_CA",
+                                "type": "NumericFlexible", 
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "PRBA_CL",
+                                "type": "NumericFlexible", 
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "PRBA_CLAY",
+                                "type": "NumericFlexible", 
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "PRBA_H2O",
+                                "type": "NumericFlexible", 
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "PRBA_MG",
+                                "type": "NumericFlexible", 
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "PRBA_NA",
+                                "type": "NumericFlexible", 
+                                "qualityCode": "0",
+                                "length" : "23"
+                            }
+                        } 
+                    ]
+                }, 
+                {
+                    "name": "com.iotaedemo.suncor.tsdata:SourceInfo",
+                    "description": {
+                        "en": "Source Metadata"
+                    },
+                    "dataCategory": "MasterData",
+                    "propertyTypes": [
+                        {
+                            "value": {
+                                "id": "CustName",
+                                "type": "String",
+                                "length": "127",
+                                "qualityCode": 0
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "IMEI",
+                                "type": "String",
+                                "length": "127",
+                                "qualityCode": 0
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "CntPersName",
+                                "type": "String",
+                                "length": "127",
+                                "qualityCode": 0
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "CustID",
+                                "type": "String",
+                                "length": "127",
+                                "qualityCode": 0
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "SiteID",
+                                "type": "String",
+                                "length": "127",
+                                "qualityCode": 0
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "CntPersPhone",
+                                "type": "String",
+                                "length": "127",
+                                "qualityCode": 0
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "CntPersEmail",
+                                "type": "String",
+                                "length": "127",
+                                "qualityCode": 0
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "Manufacturer",
+                                "type": "String",
+                                "length": "127",
+                                "qualityCode": 0
+                            }
+                        },
+                        {
+                            "value": {
+                                "id": "LandmarkDetails",
+                                "type": "String",
+                                "length": "127",
+                                "qualityCode": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "com.iotaedemo.suncor.tsdata:Image",
+                    "description": {
+                        "en": "Image properties"
+                    },
+                    "dataCategory": "MasterData",
+                    "propertyTypes": [
+                        {
+                            "value": {
+                                "description": {},
+                                "id": "ImageName",
+                                "length": "127",
+                                "type": "String"
+                            }
+                        }
+                    ]
+                } 
+            ]
+        }
+    }
+}

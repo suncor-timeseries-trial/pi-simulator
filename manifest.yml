@@ -1,0 +1,6 @@
+---
+applications:
+- name: pi_raw_data_01
+  command: node piRawData.js
+  memory: 256M
+  instances: 1
